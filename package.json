@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node -r dotenv-vault-core/config ./node_modules/.bin/next dev",
-    "build": "node -r dotenv-vault-core/config ./node_modules/.bin/next build",
-    "start": "node -r dotenv-vault-core/config ./node_modules/.bin/next start",
-    "lint": "node -r dotenv-vault-core/config ./node_modules/.bin/next lint"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@t3-oss/env-nextjs": "^0.3.1",
-    "dotenv-vault-core": "^0.7.1",
+    "dotenv": "^16.1.4",
     "next": "^13.4.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
