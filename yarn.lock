@@ -778,6 +778,18 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
+dotenv-vault-core@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/dotenv-vault-core/-/dotenv-vault-core-0.7.1.tgz#e6957c33025673618ce8c03dc5d14970430dcd2b"
+  integrity sha512-hmtT/1WXNvgMgysvF+GZX0mBX92+mUJ2V2B8KV2qXl44+M8BBNjiZcTJViZMIqKxLjLfjBtGGyvIodd98JNgMg==
+  dependencies:
+    dotenv "^16.0.3"
+
+dotenv@^16.0.3:
+  version "16.1.4"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.1.4.tgz#67ac1a10cd9c25f5ba604e4e08bc77c0ebe0ca8c"
+  integrity sha512-m55RtE8AsPeJBpOIFKihEmqUcoVncQIwo7x9U8ZwLEZw9ZpXboz2c+rvog+jUaJvVrZ5kBOeYQBX5+8Aa/OZQw==
+
 electron-to-chromium@^1.4.411:
   version "1.4.419"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.419.tgz#6fbea1f3abb65bf46e8ad874b5c1f0816ce2f8ce"
